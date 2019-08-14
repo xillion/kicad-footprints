@@ -1,4 +1,4 @@
-(module SW_SPST_CK_KXT3 (layer F.Cu) (tedit 5B0768E8)
+(module SW_SPST_CK_KXT3 (layer F.Cu) (tedit 5D4DF9D2)
   (descr https://www.ckswitches.com/media/1465/kxt3.pdf)
   (tags "Switch SPST KXT3")
   (attr smd)
@@ -39,7 +39,7 @@
   (fp_line (start -2.15 -1.25) (end -2.15 1.25) (layer F.CrtYd) (width 0.05))
   (pad 1 smd rect (at -1.625 0) (size 0.55 1.5) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 1.625 0) (size 0.55 1.5) (layers F.Cu F.Paste F.Mask))
-  (model ${KISYS3DMOD}/Button_Switch_SMD.3dshapes/SW_SPST_CK_KXT3.wrl
+  (model ${KISYS3DMOD}/Button_Switch_SMD.3dshapes/SW_SPST_KXT3XX.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
