@@ -1,4 +1,4 @@
-(module MT-8T1 (layer F.Cu) (tedit 5CF9932E)
+(module MT-8T1 (layer F.Cu) (tedit 5D650ED9)
   (fp_text reference REF** (at -25.55 0 90) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -45,4 +45,9 @@
   (pad 29 thru_hole oval (at 21 11) (size 1.1 1.8) (drill 0.65) (layers *.Cu *.Mask))
   (pad 27 thru_hole oval (at 23 -11) (size 1.1 1.8) (drill 0.65) (layers *.Cu *.Mask))
   (pad 28 thru_hole oval (at 23 11) (size 1.1 1.8) (drill 0.65) (layers *.Cu *.Mask))
+  (model ${KISYS3DMOD}/Display.3dshapes/MT-8T1.step
+    (offset (xyz -30 0 0.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

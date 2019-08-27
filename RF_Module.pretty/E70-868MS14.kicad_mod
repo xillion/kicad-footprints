@@ -1,4 +1,4 @@
-(module E70-868MS14 (layer F.Cu) (tedit 5D4152E7)
+(module E70-868MS14 (layer F.Cu) (tedit 5D650DF3)
   (fp_text reference REF** (at 0.41 0.44) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -58,4 +58,9 @@
   (pad 14 smd rect (at -1.91 10 90) (size 1.8 0.7) (layers F.Cu F.Paste F.Mask))
   (pad 12 smd rect (at 0.63 10 90) (size 1.8 0.7) (layers F.Cu F.Paste F.Mask))
   (pad 15 smd rect (at -3.18 10 90) (size 1.8 0.7) (layers F.Cu F.Paste F.Mask))
+  (model ${KISYS3DMOD}/RF_Module.3dshapes/E70-868T14S2.stp
+    (offset (xyz 5 7 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 90))
+  )
 )
