@@ -1,6 +1,6 @@
-(module GCT_SIM8055-6-1-14-00-A (layer F.Cu) (tedit 5D650C51)
+(module nanoSIM_GCT_SIM8055-6-1-14-00-A (layer F.Cu) (tedit 5E624EC6)
   (attr smd)
-  (fp_text reference GCT_SIM8055-6-1-14-00-A (at -3.63475 -7.69473) (layer F.SilkS)
+  (fp_text reference SIM8055-6-1-14-00-A (at -3.63475 -7.69473) (layer F.SilkS)
     (effects (font (size 1.00069 1.00069) (thickness 0.05)))
   )
   (fp_text value VAL** (at -2.99342 7.8626) (layer F.SilkS)
