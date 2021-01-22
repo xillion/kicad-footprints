@@ -1,4 +1,4 @@
-(module microSD_SUNTECH_ST-TF-003A (layer F.Cu) (tedit 5E78C0D6)
+(module microSD_SUNTECH_ST-TF-003A (layer F.Cu) (tedit 5E7A8778)
   (fp_text reference REF** (at -4.57732 -7.38873) (layer F.SilkS)
     (effects (font (size 1.000504 1.000504) (thickness 0.015)))
   )
@@ -35,4 +35,9 @@
   (pad 3 smd rect (at 1.32 -5.33) (size 0.7 1.6) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 2.42 -5.33) (size 0.7 1.6) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at 3.52 -5.33) (size 0.7 1.6) (layers F.Cu F.Paste F.Mask))
+  (model ${KISYS3DMOD}/Connector_Card.3dshapes/microSD_SUNTECH_ST-TF-003A.step
+    (offset (xyz 21.2 5.2 -4.8))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )
